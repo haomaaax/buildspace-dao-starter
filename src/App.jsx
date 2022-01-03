@@ -400,10 +400,6 @@ const memberList = useMemo(() => {
 
   // This is the case where we have the user's address
   // which means they've connected their wallet to our site!
-  return (
-    <div className="landing">
-      <h1>👀 wallet connected, now what!</h1>
-    </div>);
 };
 
 export default App;
